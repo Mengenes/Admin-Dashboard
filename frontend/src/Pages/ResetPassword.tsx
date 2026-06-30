@@ -34,7 +34,7 @@ try {
 
 
   return (
-  <main className="flex-1 flex  w-full  justify-center  bg-primary text-white">
+  <div className="flex-1 flex  w-full  justify-center  bg-primary text-white">
      <Card>
 
 
@@ -62,7 +62,7 @@ try {
   </form>
 </CardContent>
       </Card>
-      </main>
+      </div>
   )
 }
 

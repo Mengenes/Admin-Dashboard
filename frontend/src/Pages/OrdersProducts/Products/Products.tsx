@@ -109,7 +109,7 @@ gcTime: 30 * 60 * 1000, // 30 minutes
             </div>)
 
   return (
-    <main className="flex-1 flex w-full justify-center items-start p-2 sm:p-4 overflow-x-auto">
+    <div className="flex-1 flex w-full justify-center items-start p-2 sm:p-4 overflow-x-auto">
       <div className="w-full max-w-4xl overflow-x-auto">
         <DataTable
           columns={tableColumns}
@@ -211,7 +211,7 @@ gcTime: 30 * 60 * 1000, // 30 minutes
           </div>
         </DialogContent>
       </Dialog>
-    </main>
+    </div>
   )
 }
 

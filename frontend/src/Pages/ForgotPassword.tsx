@@ -25,7 +25,7 @@ function ForgotPassword() {
    
   }
   return (
-    <main className="flex-1 flex  w-full  justify-center   text-white">
+    <div className="flex-1 flex  w-full  justify-center   text-white">
      <Card className='w-full  md:w-auto   px-4 py-5 bg-secondary'>
 
 
@@ -47,7 +47,7 @@ function ForgotPassword() {
   </form>
 </CardContent>
       </Card>
-      </main>
+      </div>
   )
 }
 

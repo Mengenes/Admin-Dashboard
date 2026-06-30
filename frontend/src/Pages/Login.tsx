@@ -59,7 +59,7 @@ function LoginCard() {
   }
 
   return (
-       <main className="  flex items-center justify-center">
+       <div className="  flex items-center justify-center">
     <Card className="w-full max-w-md shadow-lg p-2  flex flex-col gap-10">
       <CardHeader>
         <CardTitle className="text-2xl font-extrabold">
@@ -128,7 +128,7 @@ function LoginCard() {
         </CardFooter>
       </form>
     </Card>
-    </main>
+    </div>
   )
 }
 

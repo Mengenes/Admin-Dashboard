@@ -44,7 +44,7 @@ if(isLoading) return <Spinner/>
 
 
   return (
-    <main className="flex-1 flex  w-full  justify-center items-center  text-white">
+    <div className="flex-1 flex  w-full  justify-center items-center  text-white">
  <Card className="w-full max-w-sm   p-5 text-center">
       <CardHeader>
         <CardTitle>User Profile</CardTitle>
@@ -78,7 +78,7 @@ if(isLoading) return <Spinner/>
 <DeleteAccount/>
       </CardFooter>
     </Card>
-</main>
+</div>
 
     )
 }

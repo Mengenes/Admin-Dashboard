@@ -85,7 +85,7 @@ export function DataTable<TData, TValue>({
   })
   const searchRef = React.useRef<HTMLInputElement>(null)
  return (
-  <div className="flex flex-col w-full gap-4  overflow-x-auto">
+  <div className="flex flex-col w-full gap-4 ">
     
       <h1 className="text-xl font-semibold">Products</h1>
 
@@ -134,7 +134,7 @@ export function DataTable<TData, TValue>({
       {table.getFilteredRowModel().rows.length} row(s selected.
     </div>
 
-    <div className="w-full overflow-x-auto rounded-xl border">
+    <div className="w-full overflow-auto scrollbar-gutter-stable rounded-xl border">
       <Table className="w-full min-w-[640px] md:min-w-[700px]">
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (

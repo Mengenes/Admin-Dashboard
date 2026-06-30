@@ -83,7 +83,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <div className="flex flex-col flex-wrap w-full max-w-dvw">
-    <div className="flex flex-col w-full gap-4 overflow-x-auto">
+    <div className="flex flex-col w-full gap-4 ">
       <h2 className="text-xl font-semibold">Users</h2>
 
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full">
@@ -129,7 +129,7 @@ export function DataTable<TData, TValue>({
         {table.getFilteredRowModel().rows.length} row(s selected)
       </div>
 
-      <div className="w-full rounded-xl border overflow-x-auto">
+      <div className="w-full rounded-xl border overflow-auto scrollbar-gutter-stable">
         <Table className="w-full min-w-full">
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
