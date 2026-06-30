@@ -68,7 +68,7 @@ gcTime: 30 * 60 * 1000, // 30 minutes
             </div>)
 
   return (
-    <div className="flex flex-1 w-full justify-center items-start p-3 sm:p-6">
+    <div className="flex flex-1 w-full justify-center items-start ">
       <div className="w-full max-w-4xl overflow-x-auto">
         <DataTable
           columns={columns(setSelectedUser, setDialog)}

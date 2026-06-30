@@ -129,7 +129,7 @@ export function DataTable<TData, TValue>({
         {table.getFilteredRowModel().rows.length} row(s selected)
       </div>
 
-      <div className="w-full rounded-xl border overflow-auto scrollbar-gutter-stable">
+      <div className="w-full rounded-xl border scrollbar-gutter-stable">
         <Table className="w-full min-w-full">
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
