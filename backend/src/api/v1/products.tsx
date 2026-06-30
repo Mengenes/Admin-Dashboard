@@ -5,9 +5,9 @@ import {
   getProductById,
   updateProduct,
   deleteProduct
-} from "../../handlers/products";
-import { routeAuth } from "../../middlewares/routeAuth";
-import { ordersAuth } from "../../middlewares/ordersAuth";
+} from "../../handlers/products.js";
+import { routeAuth } from "../../middlewares/routeAuth.js";
+import { ordersAuth } from "../../middlewares/ordersAuth.js";
 
 const router = express.Router();
 

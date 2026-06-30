@@ -1,7 +1,7 @@
 import {Router} from 'express';
-import { createUser,loginUser,logoutUser,tokenUser,forgotPassword,resetPassword,userProfileHandler } from '../../handlers/auth';
-import { forgotLimiter,resetLimiter, } from '../../middlewares/RateLimitters';
-import { routeAuth } from '../../middlewares/routeAuth';
+import { createUser,loginUser,logoutUser,tokenUser,forgotPassword,resetPassword,userProfileHandler } from '../../handlers/auth.js';
+import { forgotLimiter,resetLimiter, } from '../../middlewares/RateLimitters.js';
+import { routeAuth } from '../../middlewares/routeAuth.js';
 
 const router =Router();
 

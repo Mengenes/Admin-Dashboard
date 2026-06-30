@@ -1,5 +1,5 @@
 import type { Request,Response } from "express";
-import { pool } from "../config/pg";
+import { pool } from "../config/pg.js";
 
 export const createProduct = async (req:Request, res:Response) => {
 const name = req.body.name.trim()

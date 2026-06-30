@@ -1,5 +1,5 @@
 import type { CookieOptions, Request, Response } from "express";
-import { pool } from "../config/pg";
+import { pool } from "../config/pg.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { Resend } from "resend";

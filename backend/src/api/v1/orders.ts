@@ -1,8 +1,8 @@
 import {Router} from 'express';
 
-import { routeAuth } from '../../middlewares/routeAuth';
-import { ordersAuth } from '../../middlewares/ordersAuth';
-import {createOrder,getOrders,getOrderById,updateOrderStatus, deleteOrder} from "../../handlers/orders"
+import { routeAuth } from '../../middlewares/routeAuth.js';
+import { ordersAuth } from '../../middlewares/ordersAuth.js';
+import {createOrder,getOrders,getOrderById,updateOrderStatus, deleteOrder} from "../../handlers/orders.js"
 
 const router =Router();
 

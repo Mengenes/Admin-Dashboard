@@ -1,9 +1,9 @@
 import {Router} from 'express';
-import {   usersHandler,updateUser, deleteAccount, updateUserRole, deleteUserId, } from '../../handlers/users';
+import {   usersHandler,updateUser, deleteAccount, updateUserRole, deleteUserId, } from '../../handlers/users.js';
 
-import { routeAuth } from '../../middlewares/routeAuth';
-import { adminAuth } from '../../middlewares/adminAuth';
-import {updateLimiter} from "../../middlewares/RateLimitters"
+import { routeAuth } from '../../middlewares/routeAuth.js';
+import { adminAuth } from '../../middlewares/adminAuth.js';
+import {updateLimiter} from "../../middlewares/RateLimitters.js"
  const router =Router();
 
 router.get("/",routeAuth,adminAuth,usersHandler);

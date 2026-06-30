@@ -10,7 +10,7 @@ export type OrderItemInput = {
 
 
 
-import { pool } from "../config/pg"
+import { pool } from "../config/pg.js"
 import type { Request,Response } from "express";
 export const createOrder = async (
     req: Request,

@@ -1,13 +1,14 @@
 import 'dotenv/config';
 import express  from 'express';
 import type {Request,Response} from 'express';
-import userRoute from  './api/v1/users';
+
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import authRoute from './api/v1/auth';
-import ordersRoute from "./api/v1/orders"
-import productsRoute from "./api/v1/products"
-import dashboardRoute from "./api/v1/dashboard"
+import authRoute from './api/v1/auth.js';
+import ordersRoute from "./api/v1/orders.js"
+import userRoute from  './api/v1/users.js';
+import productsRoute from "./api/v1/products.js"
+import dashboardRoute from "./api/v1/dashboard.js"
 const app= express();
 
 const PORT= process.env.PORT || 3000;

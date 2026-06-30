@@ -1,7 +1,7 @@
-import { pool } from "../config/pg";
+import { pool } from "../config/pg.js";
 import type { Request, Response } from "express";
 import bcrypt from "bcrypt";
-import type { DbUser } from "./auth";
+import type { DbUser } from "./auth.js";
 
 export default interface DBuser {
 

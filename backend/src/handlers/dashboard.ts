@@ -1,6 +1,6 @@
-import type  DBuser  from "./users";
+import type  DBuser  from "./users.js";
 import type { Request,Response } from "express";
-import { pool } from "../config/pg";
+import { pool } from "../config/pg.js";
 
 
 export const getTotalCountDatas = async (_req: Request, res: Response) => {
