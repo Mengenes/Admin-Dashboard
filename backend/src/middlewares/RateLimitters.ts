@@ -17,8 +17,8 @@ export const resetLimiter = rateLimit({
 });
 
 export const fetchLimitter = rateLimit({
-  windowMs: 60 * 1000, // 1  min
-max: 30,
+  windowMs:  60 * 1000, // 1  min
+max: 60,
   message: "Too many fetching attempts, try again later."
 });
 
