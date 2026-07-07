@@ -10,9 +10,10 @@ function AppLayout() {
 
       <div className="flex flex-1 flex-col  p-2">
        
-         <header className=" flex items-center justify-between ">
+        <header className="sticky top-0 z-50 flex items-center justify-between bg-background">
+            
               <SidebarTrigger />
-         
+       
         
             
 
