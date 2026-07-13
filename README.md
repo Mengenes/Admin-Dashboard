@@ -28,7 +28,6 @@ Orderino  is admin dashboard for managing product order CRUD operations with rol
 - Language: TypeScript.
 - Frontend: Vite + Tailwind CSS + React
 - Database & Auth: Supabase (Database and Storage).
-- AI Service: OpenAI API (Logo, Story, and Content Generation).
 - HTTP Client: Axios/Fetch API.
 - Hosting: Vercel (Frontend) + Render (Backend) + Supabase (Database).
 
