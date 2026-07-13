@@ -46,7 +46,7 @@ Orderino  is admin dashboard for managing product order CRUD operations with rol
 
 **Clone the repository**
 ```bash
-git clone git@github.com:Mengenes/Admin-Dashboard.git
+git clone git@github.com:<your-username>/Admin-Dashboard.git
 Install Dependencies
 
 cd  admin-dashboard/frontend && pnpm install
