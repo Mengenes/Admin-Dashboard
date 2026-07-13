@@ -125,7 +125,7 @@ Architecture Overview
 Frontend
 Built with TypeScript + Vite + Tailwind CSS
 
-Connects to Supabase for authentication, backend API for AI generation, and Stripe for payments
+Connects to Supabase for Database, backend API for CRUD operation and Auth 
 
 Backend
 Built with Node.js + Express
