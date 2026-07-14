@@ -132,12 +132,12 @@ Built with Node.js + Express
 Handles authentication, AI content generation, and database writes via Supabase
 
 Supabase Tables
-Table	Purpose
-users	Stores user accounts
-password_resets	Stores password reset token and timestamp
-orders	Stores order details
-order_items Stores user's orders
-products Stores product details
+Table	           Purpose
+users	           Stores user accounts
+password_resets	 Stores password reset token and timestamp
+orders	          Stores order details
+order_items      Stores users orders
+products         Stores product details
 
 
 Example API Endpoints
